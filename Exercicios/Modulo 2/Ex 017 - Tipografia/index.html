@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absoluitas
+            cm, mm, in, px, pt, pc
+            Usar geralmente px ou em
+
+            Medidas Relativas
+            em, ex, ch, rem, vw, vh, vmin, vmax, %
+            16 px geralmente é 1em, 1rem, 100%
+            */
+            font-size: 1em; /* 16px */
+            font-weight: normal; /* normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900 */
+            font-style: italic; /* normal, italic, oblique */
+            text-decoration: underline; /* none, underline, overline, line-through */
+        }
+
+        h1 {
+            /* shorthand font
+            -font-stytle -> font-weight -> font-size-> font-family
+            */
+            font: italic bolder 3em 'Times New Roman', Times, serif;
+        }
+        h2 {
+            font: bold 2em 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes em CSS</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veritatis sequi voluptates quasi quam repudiandae, nisi provident accusamus quia magnam ea tempora excepturi soluta obcaecati, facilis deserunt laboriosam, aperiam nobis. sit amet, consectetur adipisicing elit. Possimus veritatis sequi voluptates quasi quam repudiandae, nisi provident accusamus quia magnam ea tempora excepturi soluta obcaecati, facilis deserunt laboriosam, aperiam nobis.</p>
+    <p>lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veritatis sequi voluptates quasi quam repudiandae, nisi provident accusamus quia magnam ea tempora excepturi soluta obcaecati, facilis deserunt laboriosam, aperiam nobis.</p>
+    <h2>Subtítulo do Conteúdo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veritatis sequi voluptates quasi quam repudiandae, nisi provident accusamus quia magnam ea tempora excepturi soluta obcaecati, facilis deserunt laboriosam, aperiam nobis. sit amet, consectetur adipisicing elit. Possimus veritatis.</p>
+
+    
+</body>
+</html>
